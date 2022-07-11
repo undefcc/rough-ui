@@ -4,11 +4,12 @@ import * as path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    resolve: {
-        //设置别名
-        alias: {
-            '@': path.resolve(__dirname, 'src')
-        }
+  resolve: {
+    //设置别名
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+      '@pack': path.resolve(__dirname, 'packages'),
     },
-    plugins: [vue()]
-});
+  },
+  plugins: [vue()],
+})

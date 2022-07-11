@@ -14,6 +14,7 @@
     "commit": "git-cz"
   },
   "dependencies": {
+    "roughjs": "^4.5.2",
     "vue": "^3.2.25"
   },
   "devDependencies": {
@@ -45,8 +46,8 @@
   },
   "lint-staged": {
     "*.{js,ts}": [
-          "npm run eslint",
-          "npm run prettier"
+      "npm run eslint",
+      "npm run prettier"
     ]
   }
 }
