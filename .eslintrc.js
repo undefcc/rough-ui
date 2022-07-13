@@ -45,7 +45,7 @@ module.exports = {
         ignores: [],
       },
     ],
-    semi: 0, // 分号
+    semi: false, // 分号
     'comma-dangle': ['error', 'always-multiline'], // 行尾逗号
   },
 }
