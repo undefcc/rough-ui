@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import RoughUI from '../packages';
+import RoughUI from '../packages'
 
-createApp(App).use(RoughUI).mount('#app')
+import router from './router'
+
+createApp(App).use(RoughUI).use(router).mount('#app')
