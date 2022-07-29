@@ -1,5 +1,6 @@
 <template>
   <div class="RoughPage">
+    <nav-bar />
     <aside class="RoughSidebar">
       <router-link
         v-for="(link, index) in data.links"
@@ -17,6 +18,7 @@
 
 <script setup lang="ts">
 import ComponentList from '@pack/list.json'
+import NavBar from './components/NavBar/index.vue'
 import { reactive } from 'vue'
 
 const data = reactive({
